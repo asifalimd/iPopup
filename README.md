@@ -1,7 +1,7 @@
 iPopup
 ======
 
-Generic popup implementation for HTML5 apps targetted for iPad or other touch devices with a 1024 X 768 screen resolution.
+Generic popup implementation for HTML5 apps targetted for iPad or other touch devices having 1024 X 768 or more screen resolution.
 
 Demo
 ====
@@ -34,9 +34,10 @@ Usage Instructions
        data-has-close-icon="true"
 
 
-References
-==========
+Dependencies
+============
 
-I am using the HTML5 custom attributes to define a popup id on any link/button. Check more on HTML% custom attributes.
-http://html5doctor.com/html5-custom-data-attributes/
+ 1. jQuery
+ 2. Modernizr to detect touch capabilities (http://modernizr.com/) 
+ 3. HTML5 custom attributes (http://html5doctor.com/html5-custom-data-attributes/)
 

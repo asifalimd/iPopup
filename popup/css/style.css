@@ -1,0 +1,33 @@
+.popupCss {
+	display:none; 
+	position:absolute;  
+	background: #FFF;
+	z-index: 99998;
+	top: 0px;
+	/*padding: 25px;*/
+	-webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px;
+}
+
+.overlayCss {
+	display: none; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; ;
+	background: #000;
+	width: 1024px; 
+	height: 768px;
+	z-index: 99997 !important;
+	/*padding: 20px;*/
+	opacity: 0.6
+}
+
+.close-icon {
+	background: url(../img/close_btn.png) no-repeat top right;
+	z-index: 99999;
+	float: right;
+	position: absolute;
+    top: -20px;
+    right: -20px; 
+    height: 50px;
+    width: 50px;
+}

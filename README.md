@@ -4,7 +4,6 @@ iPopup
 Generic popup implementation for HTML5 apps targetted for iPad or other touch devices with a 1024 X 768 screen resolution.
 
 
-
 Usage Instructions
 ==================
 
@@ -17,7 +16,7 @@ Usage Instructions
        <script type="text/javascript" src="popup/js/popup.js"></script>
 
   4. To open a popup when clicking on any link/button just add css class "open-popup" and add popup div ID
-       class="open-popup" data-popup-id="<Your popup ID>"
+       class="open-popup" data-popup-id="Your popup ID"
 
   5. You need not to hide the popup explicitly using display:none property. The plugin hides all popups, given 
      in "data-popup-id", on pageload. 

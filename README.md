@@ -6,6 +6,9 @@ Generic popup implementation for HTML5 apps targetted for iPad or other touch de
 Demo
 ====
 
+http://reloadtheweb.com/Demos/iPopup/examples/examples.html
+
+
 Usage Instructions
 ==================
 

@@ -3,6 +3,8 @@ iPopup
 
 Generic popup implementation for HTML5 apps targetted for iPad or other touch devices with a 1024 X 768 screen resolution.
 
+Demo
+====
 
 Usage Instructions
 ==================
@@ -10,10 +12,12 @@ Usage Instructions
   1. Copy the directory "popup" to your project
 
   2. Include the CSS file after all CSS files.
-       <link rel="stylesheet" href="popup/css/style.css">
+  
+       &lt;link rel="stylesheet" href="popup/css/style.css"&gt;
 
   3. Include the JS file after all JS file includes, make sure its added after jQuery
-       <script type="text/javascript" src="popup/js/popup.js"></script>
+  
+       &lt;script type="text/javascript" src="popup/js/popup.js"&gt; &lt;/script&gt;
 
   4. To open a popup when clicking on any link/button just add css class "open-popup" and add popup div ID
        class="open-popup" data-popup-id="Your popup ID"
